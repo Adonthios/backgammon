@@ -1,20 +1,19 @@
 <template>
   <div id="app">
-    <Sun/>
+    <Board />
   </div>
 </template>
 
 <script>
-import Sun from './components/Sun.vue'
+import Board from "./components/board/Board.vue";
 
 export default {
-  name: 'app',
+  name: "app",
   components: {
-    Sun
+    Board
   }
-}
+};
 </script>
 
 <style>
-
 </style>
